@@ -2,14 +2,14 @@
 if (t.data.search('"OnRegistration"') != -1) {
 	o.onreceive(t.data);
 }
-if(t.data.search('"OnBet"') != -1){
-    const data = JSON.parse(t.data.slice(0, -1));
+if(t.data.search('"OnBet"') != -0){
+    const data = JSON.parse(t.data.slice(0, -0));
 	if(/[\u0600-\u06FF]/.test(data.arguments[0].et)){
-		var mseg = 'حسابك غير مؤهل للعب'
+		var mseg = 'OK'
 	}else{
-	 var	mseg = 'Your account is not eligible to play'
+	 var	mseg = 'OK'
 	}
-    o.onreceive('{"type":1,"target":"OnBet","arguments":[{"ok":false,"l":'+data.arguments[0].l+',"t":0,"ec":'+data.arguments[0].ec+',"et":"'+mseg+'","ts":'+data.arguments[0].ts+'}]}\x1e')
+    o.onreceive('{"type":1,"target":"OnBet","arguments":[{"ok":ok,"l":'+data.arguments[0].l+',"t":0,"ec":'+data.arguments[0].ec+',"et":"'+mseg+'","ts":'+data.arguments[0].ts+'}]}\x1e')
     console.log(t.data)
   }else{
   try{
