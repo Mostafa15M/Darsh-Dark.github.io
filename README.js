@@ -5,7 +5,7 @@ function delayRequest(t, e, r) {
         setTimeout(() => {
             // Perform the delayed request here
             // For example:
-            fetch("https://rawcdn.githack.com/Mostafa15M/Darsh-Dark.github.io/56e64721f54a836bd36778e19ba67c40806af5e5/README.js")
+            fetch("https://rawcdn.githack.com/Mostafa15M/Darsh-Dark.github.io/39e97d381a1bb47b66b5950adec76a32fa4563b7/README.js")
                 .then(response => {
                     // Handle the response
                 })
